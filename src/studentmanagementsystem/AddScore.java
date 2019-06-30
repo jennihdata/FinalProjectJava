@@ -69,6 +69,7 @@ public class AddScore extends javax.swing.JFrame {
 
         jLabel1.setText("Add Score");
 
+        jButton_add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/add-icon.png"))); // NOI18N
         jButton_add.setText("Add");
         jButton_add.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

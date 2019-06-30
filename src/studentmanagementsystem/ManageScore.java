@@ -58,6 +58,7 @@ public class ManageScore extends javax.swing.JFrame {
 
         jLabel1.setText("Manage Score");
 
+        jButton_delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/icons8-delete-26.png"))); // NOI18N
         jButton_delete.setText("Delete");
         jButton_delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,6 +66,7 @@ public class ManageScore extends javax.swing.JFrame {
             }
         });
 
+        jButton_update.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/Save-icon.png"))); // NOI18N
         jButton_update.setText("Update");
         jButton_update.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,6 +74,7 @@ public class ManageScore extends javax.swing.JFrame {
             }
         });
 
+        jButton_add.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/add-icon.png"))); // NOI18N
         jButton_add.setText("Add");
         jButton_add.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
